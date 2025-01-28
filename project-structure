@@ -1,0 +1,15 @@
+src/
+  ├── assets/
+  ├── components/
+  │   ├── ComponentPanel.vue    # 组件面板
+  │   ├── RuleCanvas.vue       # 规则画布
+  │   └── PropertyPanel.vue    # 属性面板
+  ├── views/
+  │   ├── RuleList.vue        # 规则链列表
+  │   └── RuleEditor.vue      # 规则链编辑器
+  ├── stores/
+  │   └── rule.ts            # 规则状态管理
+  ├── api/
+  │   └── index.ts           # API 接口
+  └── types/
+      └── index.ts           # 类型定义 

@@ -1,0 +1,12 @@
+pnpm create vite rulego-visual --template vue-ts
+cd rulego-visual
+
+# 删除旧的依赖
+rm -rf node_modules
+rm -f pnpm-lock.yaml
+
+# 重新安装依赖
+pnpm install
+
+# 启动开发服务器
+pnpm dev 
